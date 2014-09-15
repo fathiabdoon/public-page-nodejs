@@ -1,0 +1,284 @@
+/* Banner */
+@-moz-keyframes reveal-banner {
+  /* line 5, ../../app/styles/main.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 5, ../../app/styles/main.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes reveal-banner {
+  /* line 6, ../../app/styles/main.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 6, ../../app/styles/main.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes reveal-banner {
+  /* line 7, ../../app/styles/main.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 7, ../../app/styles/main.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes reveal-banner {
+  /* line 8, ../../app/styles/main.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 8, ../../app/styles/main.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal-banner {
+  /* line 9, ../../app/styles/main.scss */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 9, ../../app/styles/main.scss */
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 11, ../../app/styles/main.scss */
+#banner {
+  background-attachment: scroll, scroll, scroll, fixed;
+  background-color: #645862;
+  background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("images/medical_informed.jpg");
+  background-position: bottom left, bottom right, top left, top center;
+  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+  background-size: 25em, 25em, auto, cover;
+  color: white;
+  cursor: default;
+  padding: 20em 0;
+  text-align: center;
+}
+/* line 22, ../../app/styles/main.scss */
+#banner .inner {
+  -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+  -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+  -o-animation: reveal-banner 1s 0.25s ease-in-out;
+  -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+  animation: reveal-banner 1s 0.25s ease-in-out;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  -ms-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  background: rgba(52, 27, 43, 0.5);
+  color: white;
+  display: inline-block;
+  opacity: 0;
+  padding: 3em;
+  text-align: center;
+}
+/* line 39, ../../app/styles/main.scss */
+#banner .inner header {
+  display: inline-block;
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  margin: 0 0 2em 0;
+  padding: 3px 0 3px 0;
+}
+/* line 45, ../../app/styles/main.scss */
+#banner .inner header h2 {
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  font-size: 2.5em;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  margin: 0;
+  padding-left: 0.05em;
+  position: relative;
+  text-transform: uppercase;
+}
+/* line 57, ../../app/styles/main.scss */
+#banner .inner p {
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-transform: uppercase;
+}
+/* line 61, ../../app/styles/main.scss */
+#banner .inner p a {
+  color: inherit;
+  font-weight: 400;
+  text-decoration: none;
+}
+/* line 68, ../../app/styles/main.scss */
+#banner .inner footer {
+  margin: 2em 0 0 0;
+}
+
+/* Section/Article */
+/* line 81, ../../app/styles/main.scss */
+section.special, article.special {
+  text-align: center;
+}
+
+/* line 85, ../../app/styles/main.scss */
+header.major {
+  padding-bottom: 2em;
+}
+
+/* line 89, ../../app/styles/main.scss */
+header.special {
+  margin-bottom: 5em;
+  padding-top: 7em;
+  position: relative;
+  text-align: center;
+}
+
+/* line 96, ../../app/styles/main.scss */
+header.special:before, header.special:after {
+  border-bottom: solid 1.5px;
+  border-top: solid 1.5px;
+  content: '';
+  height: 7px;
+  opacity: 0.1;
+  position: absolute;
+  top: 1.75em;
+  width: 43%;
+}
+
+/* line 107, ../../app/styles/main.scss */
+header.special:before {
+  left: 0;
+}
+
+/* line 111, ../../app/styles/main.scss */
+header.special:after {
+  right: 0;
+}
+
+/* line 115, ../../app/styles/main.scss */
+header.special h2 {
+  margin-bottom: 0;
+}
+
+/* line 119, ../../app/styles/main.scss */
+header.special h2 + p {
+  margin-bottom: 0;
+  padding-top: 1.5em;
+}
+
+/* line 124, ../../app/styles/main.scss */
+header.special .icon {
+  cursor: default;
+  height: 7em;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 1em;
+  width: 100%;
+}
+
+/* line 134, ../../app/styles/main.scss */
+header.special .icon:before {
+  font-size: 3.5em;
+  opacity: 0.35;
+}
+
+/* line 139, ../../app/styles/main.scss */
+footer > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 143, ../../app/styles/main.scss */
+footer.major {
+  padding-top: 3em;
+}
+
+/* line 147, ../../app/styles/main.scss */
+#features {
+  background-color: cadetblue;
+}
+
+/* line 150, ../../app/styles/main.scss */
+#cta {
+  background-attachment: scroll, scroll, scroll, fixed;
+  background-color: #645862;
+  background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+  background-position: top left, top right, top left, bottom center;
+  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+  background-size: 25em, 25em, auto, cover;
+  color: white;
+  padding: 5em;
+  text-align: center;
+}
+/* line 160, ../../app/styles/main.scss */
+#cta .buttony {
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  background: none;
+  border: solid 1px;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  min-width: 18em;
+  padding: 0 0.75em;
+  line-height: 3.75em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 179, ../../app/styles/main.scss */
+#cta header {
+  margin-bottom: 2em;
+}
+
+/* Footer */
+/* line 185, ../../app/styles/main.scss */
+#footer {
+  background: #e8eef4;
+  color: #7c8081;
+  padding: 5em 5em 10em 5em;
+  text-align: center;
+}
+
+/* line 192, ../../app/styles/main.scss */
+#footer .copyright {
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+/* line 197, ../../app/styles/main.scss */
+#footer .copyright a {
+  color: inherit;
+}
+
+/* line 201, ../../app/styles/main.scss */
+#footer .copyright li {
+  display: inline-block;
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left: dotted 1px;
+}
+
+/* line 208, ../../app/styles/main.scss */
+#footer .copyright li:first-child {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}

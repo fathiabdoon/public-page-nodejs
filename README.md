@@ -1,4 +1,3 @@
-public-page-nodejs
-==================
+# MyRibbonDiary
 
-Product Landing Page
+a [Sails](http://sailsjs.org) application

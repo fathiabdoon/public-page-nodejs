@@ -1,0 +1,26 @@
+{
+  "name": "MyRibbonDiary",
+  "version": "0.0.1",
+  "authors": [
+    "jaxonetic <jaxonetic@gmail.com>"
+  ],
+  "description": "My Ribbon Diary",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.24",
+    "angular-route": "~1.2.24",
+    "json3": "~3.3.2",
+    "modernizr": "~2.8.3"
+  }
+}
